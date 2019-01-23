@@ -1,0 +1,5 @@
+<template name="tempCopyright">
+	<view>
+		Copyright © 2019 KFAPE All rights reserved.
+	</view>
+</template>
