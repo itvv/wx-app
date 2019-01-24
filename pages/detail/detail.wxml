@@ -199,7 +199,7 @@
 							<view class="menu-box {{isShow ? 'emoji-move-in' : 'emoji-move-out'}} {{isLoad ? 'no-emoji-move' : ''}}">
 								<view class="iconList">
 									<view class="iconLine">
-										<view style="width:20%; position: relative; float:left; text-align:center">
+										<view style="width:25%; position: relative; float:left; text-align:center">
 											<view>
 												<image src="../../images/forwarding.png" class="img-menu"></image>
 											</view>
@@ -209,24 +209,7 @@
 											<button class="share-button share-button touch-active" open-type="share">
 											</button>
 										</view>
-										<view style="width:20%; float:left; text-align:center">
-											<view>
-												<image src="../../images/poster.png" catchtap="downimageTolocal" class="img-menu"></image>
-											</view>
-											<view>
-												<text>海报</text>
-											</view>
-										</view>
-										<view style="width:20%; float:left; text-align:center">
-											<view>
-												<image src="../../images/copy.png" class="img-menu" catchtap="gotowebpage"></image>
-											</view>
-											<view>
-												<text>原文</text>
-											</view>
-										</view>
-
-										<view style="width:20%; float:left; text-align:center">
+										<view style="width:25%; float:left; text-align:center">
 											<view>
 												<image src="../../images/{{likeImag}}" catchtap="clickLike" id="likebottom" class="img-menu"></image>
 											</view>
@@ -234,7 +217,7 @@
 												<text>点赞</text>
 											</view>
 										</view>
-										<view style="width:20%; float:left; ">
+										<view style="width:25%; float:left; ">
 											<view bindtap="{{keepBindtap}}" class="barBox ">
 												<image class="ijiBottomBarIco img-menu" src="../../images/{{keepLogsImg}}.png"></image>
 												<view>
@@ -242,15 +225,15 @@
 												</view>
 											</view>
 										</view>
-										<!-- <view style="width:20%; float:left; ">
-											<view>
-												<image src="../../images/appreciation.png" catchtap="praise" class="img-menu"></image>
-											</view>
-											<view>
-												<text>赞赏</text>
-											</view>
 
-										</view> -->
+										<view style="width:25%; float:left; text-align:center">
+											<view>
+												<image src="../../images/copy.png" class="img-menu" catchtap="gotowebpage"></image>
+											</view>
+											<view>
+												<text>原文</text>
+											</view>
+										</view>
 									</view>
 								</view>
 							</view>

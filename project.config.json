@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wx20a8ed1c193d452f",
-	"projectname": "%E5%BC%80%E5%8F%91%E7%8C%BF",
+	"projectname": "wx-app",
 	"condition": {
 		"search": {
 			"current": -1,
